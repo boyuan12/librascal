@@ -1622,7 +1622,6 @@ namespace rascal {
         return Matrix_Ref(this->radial_neighbour_derivative);
       }
 
-
       /*
        * Overwriting the finalization function to empty one, since the
        * finalization happens now in the per neighbour computation
