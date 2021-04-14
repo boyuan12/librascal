@@ -10,10 +10,9 @@ from .io import (
 
 # Warning potential dependency loop: FPS imports models, which imports KRR,
 # which imports this file again
-from .fps import fps, FPSFilter
+from .filter import FPSFilter, CURFilter
 
 # function to redirect c++'s standard output to python's one
 from ..lib._rascal.utils import ostream_redirect
 from copy import deepcopy
-from .cur import CURFilter
 from .scorer import get_score, print_score
