@@ -207,7 +207,7 @@ jobs:
           name: Validate notebooks
           command: cd examples && pytest --nbval-lax *.ipynb
           environment:
-            PYTHONPATH: build/
+            PYTHONPATH: ${PWD}/build/
 
 workflows:
   version: 2
