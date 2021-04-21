@@ -180,6 +180,9 @@ jobs:
 
   # Special job to check that the example notebooks run
   notebooks:
+    environment:
+      CC: gcc-10
+      CXX: g++-10
     docker:
       - image: cosmoepfl/rascal-ci:5
     steps:
