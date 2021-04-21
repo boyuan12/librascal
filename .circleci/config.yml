@@ -206,6 +206,9 @@ jobs:
       - run:
           name: Validate notebooks
           command: cd examples && pytest --nbval *.ipynb
+          # The notebooks really shouldn't take this long, but let's just see
+          # if they run for now
+          no_output_timeout: 20m
           environment:
             PYTHONPATH: build/
 
