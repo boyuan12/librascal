@@ -4,7 +4,7 @@ Examples of using `librascal`
 This folder contains hands-on examples and tutorials that demonstrate how to use librascal for atomistic machine learning.  They currently focus on the task of fitting a model and using it to run machine learning molecular dynamics simulations (ML-MD).  The two notebooks that currently demonstrate this are:
 
 - :file:`MLIP_example.ipynb`: Generic example of fitting a machine learning potential and running it using `ASE <https://wiki.fysik.dtu.dk/ase>`_
-- :file:`zundel_IP.ipynb` (notebook source in the :file:`i-PI/zundel/` directory): Example of fitting a potential and running using the `i-PI <http://ipi-code.org/>`_ code
+- :file:`zundel_i-PI.ipynb` (with data in the :file:`i-PI/zundel/` directory): Example of fitting a potential and running using the `i-PI <http://ipi-code.org/>`_ code
 
 These notebooks are small, fast, and lightweight, and are automatically checked to make sure they run with the current version of the code.
 
